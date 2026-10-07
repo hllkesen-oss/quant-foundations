@@ -5,8 +5,8 @@ A modular implementation exploring the empirical and statistical foundations of 
 ---
 
 ## 1. Logarithmic Returns (`01_log_returns.py`)
-- **Core Concept:** Simple percentage returns are asymmetric and non-additive over multi-period horizons. Logarithmic returns (`ln(P_t / P_t-1)`) provide time-additivity and symmetry.
-- **Key Takeaway:** An asset dropping 50% and gaining 50% yields a net loss (-25%), accurately captured by continuous compounding (`sum(r_t) = -0.2877`).
+- **Core Concept:** Simple percentage returns are asymmetric and non-additive over multi-period horizons. Logarithmic returns `ln(Price_t / Price_{t-1})` provide time-additivity and symmetry.
+- **Key Takeaway:** An asset dropping 50% and gaining 50% yields a net loss (-25%), accurately captured by continuous compounding (`sum(r) = -0.2877`).
 
 ## 2. Volatility & Fat Tails (`02_volatility_kurtosis.py`)
 - **Core Concept:** Financial asset returns do not adhere to ideal Gaussian (normal) distributions. Market shocks generate extreme fat-tailed risk (leptokurtosis).
